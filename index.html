@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jollibee</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/icon.jpeg">
+    <!--Bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!--Bootstrap link end-->
+    <!--Fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <!--Fonts link end-->
+    <!--Animate link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Animate link end-->
+    <!--Icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!--Icon link end -->
+</head>
+
+<body>
+<!--Navigation Bar Start-->
+<nav class="navbar" data-aos="fade-down">
+  <div class="container-fluid">
+      <img src="img/logo.webp" alt="Logo" width="200" height="50%" class="d-inline-block align-text-top">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link"  href="#">Delivery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Locations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Promotions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Order Now</a>
+        </li>
+      </ul>
+  </div>
+</nav>  
+<!--Navigation Bar End-->
+    
+    <!--Carousel Start-->
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="img/slide1.jpg">
+            <button type="button" class="btn">Order Now</button>
+          </div>
+          <div class="carousel-item">
+            <img src="img/slide2.webp">
+            <button type="button" class="btn">Order Now</button>
+          </div>
+          <div class="carousel-item active">
+            <img src="img/jolly.gif">
+            <button type="button" class="btn">Order Now</button>
+          </div>
+        </div>
+    </div>
+    <!--Carousel End-->
+
+    <!--Icons Start-->
+   <div class="icon-container" style="background-color: #ff5757; width: 100vw; margin-left: 0;">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <img src="img/icon1.webp" id="icons">
+          <h3 id="icon-text">Order and Pickup</h3>
+        </div>
+        <div class="col">
+          <img src="img/icon2.webp" id="icons">
+          <h3 id="icon-text">Download App</h3>
+        </div>
+        <div class="col">
+          <img src="img/icon3.webp" id="icons">
+          <h3>#8-7000</h3>
+        </div>
+      </div>
+    </div>
+   </div>
+    <!--Icon End-->
+
+    <!--Grid Start-->
+    <div class="container-promo">
+    <div class="container text-center" data-aos="zoom-in" data-aos-duration="800">
+      <hr id="hr">
+      <h1>Exclusive Promos</h1>
+      <div class="row">
+        <div class="col">
+        <img src="img/promo1.jpg" id="promos">
+        </div>
+        <div class="col">
+        <img src="img/promo2.jpg" id="promos">
+        </div>
+        <div class="col">
+        <img src="img/promo3.jpg" id="promos">
+        </div>
+      </div>
+      <button type="button" class="btn">See All Promos</button>
+      <hr id="hr">
+    </div>
+  </div>
+   <!--Grid End-->
+
+   <!--Card Start-->
+   <div class="card1" data-aos="fade-up"
+   data-aos-duration="1000">
+   <div class="container overflow-hidden text-center">
+    <h1>Featured Menu Items</h1>
+    <div class="row gy-5">
+      <div class="col-6">
+        <div class="p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="	₱499.00"><div class="card" style="background-color: #ff9600;">
+          <img src="img/menu1.webp" class="card-img-top" id="menu1">
+          <div class="card-body" style="background-color: #f2f5f8">
+            <p class="card-text"><h2>Chickenjoy Bucket</h2>
+              A bucket of your favorite crispylicious, juicylicious Chickenjoy!</p>
+          </div>
+        </div></div>
+      </div>
+      <div class="col-6">
+        <div class="p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="	₱200.00"><div class="card" style="background-color: #e73e3e;">
+          <img src="img/menu2.webp" class="card-img-top" id="menu1">
+          <div class="card-body" style="background-color: #f2f5f8">
+            <p class="card-text"><h2>Jolly Spaghetti Family Pan</h2>
+              Your meatiest, cheesiest and sweet-sarap Jolly Spaghetti Family Pan..</p>
+          </div>
+        </div></div>
+      </div>
+      <div class="container overflow-hidden text-center">
+        <div class="row gy-5">
+          <div class="col-6">
+            <div class="p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="	₱35.00"><div class="card" style="background-color: #01a9d0;">
+              <img src="img/menu3.webp" class="card-img-top" id="menu1">
+              <div class="card-body" style="background-color: #f2f5f8">
+                <p class="card-text"><h2>Yumburger</h2>
+                  Your favorite beefiest langhap-sarap Yumburger, with beefy patty and our special dressing in between soft buns.</p>
+              </div>
+            </div></div>
+          </div>
+          <div class="col-6">
+            <div class="p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="	₱50.00"><div class="card" style="background-color: #4ad31f;" >
+              <img src="img/menu4.webp" class="card-img-top" id="menu1">
+              <div class="card-body" style="background-color: #f2f5f8">
+                <p class="card-text"><h2>Burger Steak</h2>
+                  2 pieces of beef patty with flavorful mushroom gravy, topped with mushroom slices. Served with steamed rice.</p>
+              </div>
+            </div></div>
+          </div>
+          <button type="button" class="btn">View Menu</button>
+        </div>
+   <!--Card End-->
+
+   <!--Photos Start-->
+   <div class="photo-container">
+      <div class="container text-center">
+        <h1>Jollibee Mascots</h1>
+        <div class="row">
+          <div class="col">
+           <img src="img/1.jpg" id="mascots" data-aos="fade-right">
+          </div>
+          <div class="col">
+            <h1 style="font-weight: bold; font-family: 'Merriweather', serif; margin-top: 100px; border: 10px solid #c70000;">Jollibee</h1><br>
+            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; word-spacing: 10px; border:">The Icon himself, Jollibee, was introduced in 1980 as the first mascot for the food chain. Dressed in a red suit and chef hat, this anthropomorphic has become the face that brings joy and happiness to the customers. The first iteration of him was more slender and wore green bottoms.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <h1 style="font-weight: bold; font-family: 'Merriweather', serif; margin-top: 100px; border: 10px solid #69c1fe;">Mr. Yum</h1><br>
+            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; word-spacing: 10px; border:">Introduced in 1980 to 1983 as “Mr. Yum”, the mascot was created to promote the regular “yum” hamburger product line. He is seen dark suited man with a bowler hat shaped as the “yum burger”. 
+            He was later updated in 2009 and renamed as “Yum”. His appearance changed to a younger man with yellow visor shades but still keeping his burger shaped hat.  </p>
+          </div>
+          <div class="col">
+            <img src="img/2.jpg" id="mascots" data-aos="fade-left">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+         <img src="img/3.jpg" id="mascots" data-aos="fade-right">
+        </div>
+        <div class="col">
+          <h1 style="font-weight: bold; font-family: 'Merriweather', serif; margin-top: 100px; border: 10px solid #9c23ce;">Twirlie</h1><br>
+          <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; word-spacing: 10px; border:">Introduced in 1988 to promote the popular “Twirly” Sundaes, Twirlie is a bright colored female mascot in purple and pink attire with a hairdo that looks alike to a sundae. She is currently active and appears often on promotion materials and events. </p>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <h1 style="font-weight: bold; font-family: 'Merriweather', serif; margin-top: 100px; border: 10px solid #f2d80f;">Popo</h1><br>
+          <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; word-spacing: 5px; border:">Introduced in 1980, Popo was created to promote French Fries. He was initially designed  as a boy with a red shirt with blue overalls and hair made of thick fires and a hat that looks like a carton for fries. His design was later changed to give him a more sleek look with a blue tracksuit and sideways upside-down running visor to replace his hat. He is currently active and seen often with Jollibee crew.   </p>
+        </div>
+        <div class="col">
+          <img src="img/4.webp" id="mascots" data-aos="fade-left">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+       <img src="img/5.jpg" id="mascots" data-aos="fade-right">
+      </div>
+      <div class="col">
+        <h1 style="font-weight: bold; font-family: 'Merriweather', serif; margin-top: 100px; border: 10px solid 	#ff6db3">Hetty</h1><br>
+        <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; word-spacing: 10px; border:">The last of the Jollibee crew, Heey was introduced in 1984 to promote the “jolly spaghetti” product line. She is designed as a young girl with blond hair that looks like spaghetti stands. She is a crowd favorite after Jollibee and is currently active with the jolly crew. </p>
+      </div>
+    </div>
+  </div>
+</div>
+   </div>
+   <!--Photos End-->
+
+   <!--Footer Start-->
+   <div class="footer" style="background-color: #ff5757; width: 100vw; height: 200px;">
+    <div class="container text-center">
+      <div class="row row-cols-8">
+        <div class="col" id="footer-text"><a href="#">About Us</a></div>
+        <div class="col" id="footer-text"><a href="#">Stores</a></div>
+        <div class="col" id="footer-text"><a href="#">Privacy Policy</a></div>
+        <div class="col" id="footer-text"><a href="#">T&C</a></div>
+        <div class="col" id="footer-text"><a href="#">Feedback</a></div>
+        <div class="col" id="footer-text"><a href="#">Customer Care</a></div>
+        <div class="col" id="footer-text">Stay Connected</div>
+      </div>
+    </div>
+    <div class="footer2">
+      <p><b>Stay up-to-date</b><br>
+        Don't miss out on exclusive online offers!</p>
+        <form>
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Enter email" name="email" style="color: white;">
+            </div>
+          </div>
+        </form>
+        <div class="footer-button">
+          <button type="button" class="btn">Sign Up</button>
+      </div>
+      <div class="footer-icon">
+        <div class="container text-center">
+          <div class="row row-cols-auto">
+            <div class="col"><a href=""><i class="fa-brands fa-instagram"></a></i></div>
+            <div class="col"><a href=""><i class="fa-brands fa-facebook"></a></i></div>
+            <div class="col"><a href=""><i class="fa-brands fa-twitter"></a></i></div>
+          </div>
+          <p style="font-size: 10px; font-weight: bold; padding-right: 20px; margin-top: 20px;">Copyright © 2019 Jollibee. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+   <!--Footer End-->
+  
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+   const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+
+ </body>
+</html>

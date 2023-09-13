@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Nav Start */
+.navbar{
+   width: 100%;
+   height: 80px;
+   background-color: red;
+   margin-right: 50px;
+   border-bottom: 5px solid rgba(255, 111, 0, 0.905);
+}
+.navbar img{
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+.navbar .container-fluid {
+    margin-right: 50px;
+}
+.navbar .container-fluid .nav .nav-item{
+    margin: 2px;
+}
+.navbar .container-fluid .nav .nav-item a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    background-color: orangered;
+}
+.navbar .container-fluid .nav .nav-item a:hover{
+   background-color: gray;
+}
+/* Nav End */
+
+/* Carousel Start */
+.carousel .carousel-inner .carousel-item img{
+width: 100vw;
+height: 580px;
+margin-top: 1px;
+}
+#carousel{
+animation: 2.5s linear infinite;
+}
+.carousel .carousel-inner .carousel-item .btn{ 
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+.carousel .carousel-inner .carousel-item .btn:hover{ 
+    background-color: gray;
+    color: black;
+}
+/* Carousel End */
+
+/*Icons Start */
+#icons{
+    width: 200px;
+    height: 200px;
+}
+.icon-container{
+    margin-top: 2px;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+}
+.icon-container h3{
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  margin-top: 15px;
+}
+/*Icons End */
+
+/* Grid Start */
+#hr{
+    border: 2px solid red;
+}
+.container-promo{
+margin-top: 25px;
+}
+.container .row .col img{
+    margin-top: 10px;
+    width: 350px;
+    height: auto;
+    border: 50px 70px 50px 70px;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+}
+#promos:hover{
+    transform: translateY(-5%);
+    transition: top 1s;
+}
+.container .btn{
+    margin-top: 20px;
+    background-color: orange;
+    font-family:'Merriweather', serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 80px;
+}
+/* Grid End */
+
+/*Card Start */
+.card1{
+    background-color: blanchedalmond;
+    height: 900px;
+    width: 100%;
+}
+ #menu1{
+   width: 200px;
+   height: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto;
+ }
+.card1 .container .row .col-6 .p-3:hover{
+    transform: translateY(-5%);
+    transition: top 1s;
+    cursor: pointer;
+}
+.card1 .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+/*Card End*/
+
+/*Photos Start*/
+.photo-container{
+    margin-top: 40px;
+}
+#mascots{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px 70px 50px 70px;
+}
+/*Photos End*/
+
+/*Footer Start*/
+
+.footer{
+ margin-top: 50px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+   color: yellow;
+}
+#footer-text{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.footer2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-left: 100px;
+    color: white;
+    font-size: 15px;
+}
+.footer2 .row .col .form-control{
+    margin-top: 8px;
+    margin-left: 50px;
+    background-color:  #ff5757;
+    border: 3px solid white;
+    border-radius: 100px;
+}
+.footer2 .footer-button{
+    margin-left: 60px;
+}
+.footer2 .footer-button .btn{
+    background-color: orange;
+}
+.footer2 .footer-icon {
+    margin-left: 500px;
+    font-size: 20px;
+}
