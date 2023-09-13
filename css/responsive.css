@@ -1,0 +1,31 @@
+/* max-width: lower than 895 */
+@media screen and (max-width: 895px) {
+  .navbar .container-fluid .nav .nav-item a {
+    display: none;
+  }
+}
+
+/* min-width: greater than 895 */
+@media screen and (min-width: 895px) {
+  .navbar .container-fluid .mobile-menu{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card1{
+    height: 1750px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card1 {
+    height: 1800px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .card1 {
+    height: 1850px;
+  }
+}

@@ -20,17 +20,19 @@
     <!--Animate link end-->
     <!--Icon link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <!--Icon link end -->
 </head>
 
 <body>
 <!--Navigation Bar Start-->
 <nav class="navbar" data-aos="fade-down">
-  <div class="container-fluid">
+  <div class="container-fluid nav-container">
       <img src="img/logo.webp" alt="Logo" width="200" height="50%" class="d-inline-block align-text-top">
+
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link"  href="#">Delivery</a>
+          <a class="nav-link" href="#">Delivery</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Locations</a>
@@ -45,6 +47,12 @@
           <a class="nav-link" href="#">Order Now</a>
         </li>
       </ul>
+
+      <!-- mobile menu start -->
+      <div class="mobile-menu">
+        <i class="fa-solid fa-bars fs-2"></i>
+      </div>
+      <!-- mobile menu end -->
   </div>
 </nav>  
 <!--Navigation Bar End-->
@@ -111,13 +119,13 @@
   </div>
    <!--Grid End-->
 
-   <!--Card Start-->
-   <div class="card1" data-aos="fade-up"
-   data-aos-duration="1000">
-   <div class="container overflow-hidden text-center">
+  <!--Card Start-->
+  <div class="card1" data-aos="fade-up"
+  data-aos-duration="1000">
+  <div class="container overflow-hidden text-center">
     <h1>Featured Menu Items</h1>
     <div class="row gy-5">
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <div class="p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="	₱499.00"><div class="card" style="background-color: #ff9600;">
           <img src="img/menu1.webp" class="card-img-top" id="menu1">
           <div class="card-body" style="background-color: #f2f5f8">
@@ -126,7 +134,7 @@
           </div>
         </div></div>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <div class="p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="	₱200.00"><div class="card" style="background-color: #e73e3e;">
           <img src="img/menu2.webp" class="card-img-top" id="menu1">
           <div class="card-body" style="background-color: #f2f5f8">
@@ -137,7 +145,7 @@
       </div>
       <div class="container overflow-hidden text-center">
         <div class="row gy-5">
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <div class="p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="	₱35.00"><div class="card" style="background-color: #01a9d0;">
               <img src="img/menu3.webp" class="card-img-top" id="menu1">
               <div class="card-body" style="background-color: #f2f5f8">
@@ -146,7 +154,7 @@
               </div>
             </div></div>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <div class="p-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="	₱50.00"><div class="card" style="background-color: #4ad31f;" >
               <img src="img/menu4.webp" class="card-img-top" id="menu1">
               <div class="card-body" style="background-color: #f2f5f8">
@@ -224,13 +232,13 @@
    <div class="footer" style="background-color: #ff5757; width: 100vw; height: 200px;">
     <div class="container text-center">
       <div class="row row-cols-8">
-        <div class="col" id="footer-text"><a href="#">About Us</a></div>
-        <div class="col" id="footer-text"><a href="#">Stores</a></div>
-        <div class="col" id="footer-text"><a href="#">Privacy Policy</a></div>
-        <div class="col" id="footer-text"><a href="#">T&C</a></div>
-        <div class="col" id="footer-text"><a href="#">Feedback</a></div>
-        <div class="col" id="footer-text"><a href="#">Customer Care</a></div>
-        <div class="col" id="footer-text">Stay Connected</div>
+        <div class="col-6 col-md-4 col-lg-2" id="footer-text"><a href="#">About Us</a></div>
+        <div class="col-6 col-md-4 col-lg-2" id="footer-text"><a href="#">Stores</a></div>
+        <div class="col-6 col-md-4 col-lg-2" id="footer-text"><a href="#">Privacy Policy</a></div>
+        <div class="col-6 col-md-4 col-lg-2" id="footer-text"><a href="#">T&C</a></div>
+        <div class="col-6 col-md-4 col-lg-2" id="footer-text"><a href="#">Feedback</a></div>
+        <div class="col-6 col-md-4 col-lg-2" id="footer-text"><a href="#">Customer Care</a></div>
+        <!-- <div class="col-6 col-md-4 col-lg-2" id="footer-text">Stay Connected</div> -->
       </div>
     </div>
     <div class="footer2">
