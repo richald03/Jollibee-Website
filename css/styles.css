@@ -72,9 +72,9 @@ animation: 2.5s linear infinite;
     border-bottom: 5px solid orange;
 }
 .icon-container h3{
-  font-weight: bold;
-  font-family: 'Merriweather', serif;
-  margin-top: 15px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    margin-top: 15px;
 }
 /*Icons End */
 
@@ -116,14 +116,14 @@ margin-top: 25px;
     width: 100%;
 }
 
- #menu1{
-   width: 200px;
-   height: 200px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin: 0 auto;
- }
+    #menu1{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    }
 .card1 .container .row .col-6 .p-3:hover{
     transform: translateY(-5%);
     transition: top 1s;
@@ -152,14 +152,14 @@ margin-top: 25px;
 /*Footer Start*/
 
 .footer{
- margin-top: 50px;
+    margin-top: 50px;
 }
 .footer a{
     text-decoration: none;
     color: white;
 }
 .footer a:hover{
-   color: yellow;
+    color: yellow;
 }
 #footer-text{
     color: white;

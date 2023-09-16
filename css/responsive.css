@@ -12,6 +12,13 @@
   }
 }
 
+@media screen and (max-width: 375px){
+  .navbar .container-fluid .mobile-menu{
+  position: absolute;
+  left: 90%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .card1{
     height: 1750px;
