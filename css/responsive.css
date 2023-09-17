@@ -36,3 +36,8 @@
     height: 1850px;
   }
 }
+@media screen and (max-width: 399px) {
+  .footer .footer2, .footer-button , .footer-icon {
+  display: block;
+  }
+}
